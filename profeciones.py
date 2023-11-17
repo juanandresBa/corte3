@@ -16,7 +16,7 @@ class Medico(Ciudadano):
 
     def realizar_consulta(self):
         print("Realizando consulta médica...")
-        # Lógica específica para la consulta
+        
 
     def mostrar_informacion(self):
         super().mostrar_informacion()
@@ -31,7 +31,7 @@ class Abogado(Ciudadano):
 
     def resolver_caso(self):
         print("Resolviendo caso legal...")
-        # Lógica específica para resolver casos
+        
 
     def mostrar_informacion(self):
         super().mostrar_informacion()
@@ -46,7 +46,7 @@ class Ingeniero(Ciudadano):
 
     def realizar_proyecto(self):
         print("Realizando proyecto de ingeniería...")
-        # Lógica específica para proyectos de ingeniería
+  
 
     def mostrar_informacion(self):
         super().mostrar_informacion()
